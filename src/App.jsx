@@ -1,5 +1,6 @@
 import About from './sections/About'
 import Contact from './sections/Contact'
+import Experience from './sections/Experience'
 import Footer from './sections/Footer'
 // import Clients from './sections/Clients'
 import Hero from './sections/Hero'
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Projects />
       {/* <Clients /> */}
+      <Experience />
       <Contact />
       <Footer />
     </main>
