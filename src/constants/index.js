@@ -155,7 +155,7 @@ export const navLinks = [
       desc: 'Build 3D websites from scratch with Three.js, creating a visually stunning and interactive portfolio. Bring your projects to life with animated 3D models, dynamic avatars, and immersive scenes that react to user interactions.',
       subdesc:
         'Built with Three.js, React Three Fiber, Drei, and Vite, this project features a Hero Section with animated 3D objects, a responsive Navbar, Bento Grid, and a Work Section with hover-triggered avatar animations. A seamless deployment setup ensures a high-performance, professional-grade experience.',
-      href: '/',
+      href: 'https://tejas-portfolio-blush.vercel.app/',
       texture: '/textures/project/Pro4.mp4',
       logo: '/assets/project-logo/Pro4.png',
       logoStyle: {
