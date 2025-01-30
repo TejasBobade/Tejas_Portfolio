@@ -20,7 +20,7 @@ const About = () => {
                 <div className='grid-container'>
                     <img src="/assets/grid1.png" alt="grid-1" className='w-full sm:h-[276px] h-fit object-contain' />
                     <div>
-                        <p className='grid-headtext'>Hi,I'm Tejas</p>
+                        <p className='grid-headtext'>Hi, I'm Tejas</p>
                         <p className='grid-subtext'>With hands-on experience as a web development intern, I have honed my expertise in both frontend and backend development. My skill set is particularly focused on creating dynamic and visually engaging animated 3D websites, delivering innovative and interactive user experiences.</p>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ const About = () => {
                     <img src="/assets/grid2.png" alt="grid-2" className='w-full sm:w-[276px] h-fit object-contain' />
                     <div>
                         <p className='grid-headtext'>Tech Stack</p>
-                        <p className='grid-subtext'>I specialize in JavaScript/TypeScript with a focus on React and Next.js ecosystems.</p>
+                        <p className='grid-subtext'>I specialize in JavaScript/TypeScript with a focus on React and Next.js ecosystems. I have knowledge of HTML, CSS, Tailwind CSS, Shadcn-UI, Aceternity-UI, SQL, Python, Express, Mongoose, TanStack Query , Three.js, Git, Github. </p>
                     </div>
                 </div>
             </div>
@@ -58,10 +58,10 @@ const About = () => {
                     </div>
                     <div>
                         <p className='grid-headtext'>
-                            I'm ready to work on-site, Hybrid or remote.
+                            I'm ready to work On-site, Hybrid or Remote.
                         </p>
                         <p className='grid-subtext'>
-                            I'm based in pune, with on-site, Hybrid or remote work availabel.
+                            I'm based in pune, with On-site, Hybrid or Remote work availabel.
                         </p>
                         <Button name="Contact Me" isBeam containerClass='w-full mt-10'/>
                     </div>
