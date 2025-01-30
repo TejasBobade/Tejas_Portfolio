@@ -58,13 +58,13 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'Snapgram: A Modern Social Media App',
+      desc: 'Snapgram is a cutting-edge social media platform designed for seamless user engagement and a native mobile experience. With real-time interactions, infinite scroll, and a sleek UI, it redefines the way users connect and share content.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-      texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
+        'Developed with React JS, Appwrite, Tailwind CSS, JavaScript, and Shadcn UI, Snapgram delivers high performance, real-time updates, and an intuitive design optimized for scalability and responsiveness.',
+      href: 'https://insta-void.vercel.app/',
+      texture: '/textures/project/Pro1.mp4',
+      logo: '/assets/project-logo/Pro1.svg',
       logoStyle: {
         backgroundColor: '#2A1816',
         border: '0.2px solid #36201D',
@@ -95,13 +95,13 @@ export const navLinks = [
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'Brainwave: Modern Landing Page For SAAS',
+      desc: 'Brainwave is a cutting-edge SaaS landing page designed to create modern, visually captivating websites. With sleek parallax effects and bento box layouts, it delivers a stylish, mobile-first user experience while enhancing interactivity and engagement.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-      texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo2.png',
+        'Built with React.js, Tailwind CSS, and Framer Motion, Brainwave combines smooth animations with a clean, scalable UI, ensuring high performance and responsiveness across all devices.',
+      href: 'https://brainwave-nine-ashen.vercel.app/',
+      texture: '/textures/project/Pro2.mp4',
+      logo: '/assets/project-logo/Pro2.svg',
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
@@ -119,26 +119,16 @@ export const navLinks = [
           name: 'TailwindCSS',
           path: 'assets/tailwindcss.png',
         },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'VirtualR: Modern Landing Page For Virtual Reality Startup',
+      desc: 'VirtualR is a sleek and immersive landing page for virtual reality startups, designed to captivate users with a modern, engaging experience. Featuring a responsive navbar, gradient hero section, autoplay videos, and a structured features showcase, it highlights the innovation behind VR technology.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-      texture: '/textures/project/project3.mp4',
-      logo: '/assets/project-logo3.png',
+        'Built with Vite, Tailwind CSS, and Framer Motion, VirtualR delivers smooth animations, a clean UI, and a mobile-first design. With a pricing section, testimonials, and seamless deployment on Vercel, it ensures high performance and scalability.',
+      href: 'https://virtual-r-sooty-three.vercel.app/',
+      texture: '/textures/project/Pro3.mp4',
+      logo: '/assets/project-logo/Pro3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -158,26 +148,16 @@ export const navLinks = [
           name: 'TailwindCSS',
           path: 'assets/tailwindcss.png',
         },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      title: 'Tejas-Portfolio',
+      desc: 'Build 3D websites from scratch with Three.js, creating a visually stunning and interactive portfolio. Bring your projects to life with animated 3D models, dynamic avatars, and immersive scenes that react to user interactions.',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-      texture: '/textures/project/project4.mp4',
-      logo: '/assets/project-logo4.png',
+        'Built with Three.js, React Three Fiber, Drei, and Vite, this project features a Hero Section with animated 3D objects, a responsive Navbar, Bento Grid, and a Work Section with hover-triggered avatar animations. A seamless deployment setup ensures a high-performance, professional-grade experience.',
+      href: '/',
+      texture: '/textures/project/Pro4.mp4',
+      logo: '/assets/project-logo/Pro4.png',
       logoStyle: {
         backgroundColor: '#0E1F38',
         border: '0.2px solid #0E2D58',
@@ -197,48 +177,6 @@ export const navLinks = [
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-      subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
-      logo: '/assets/project-logo5.png',
-      logoStyle: {
-        backgroundColor: '#1C1A43',
-        border: '0.2px solid #252262',
-        boxShadow: '0px 0px 60px 0px #635BFF4D',
-      },
-      spotlight: '/assets/spotlight5.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
           name: 'Framer Motion',
           path: '/assets/framer.png',
         },

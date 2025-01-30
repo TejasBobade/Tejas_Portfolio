@@ -13,7 +13,7 @@ const WorkExperience = () => {
       <div className="w-full text-white-600">
         <p className="head-text">My Work Experience</p>
 
-        <div className="work-container">
+        <div className="work-container lg:h-[450px]">
           <div className="work-canvas">
             <Canvas>
               <ambientLight intensity={7} />
