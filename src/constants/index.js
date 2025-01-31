@@ -58,43 +58,6 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Snapgram: A Modern Social Media App',
-      desc: 'Snapgram is a cutting-edge social media platform designed for seamless user engagement and a native mobile experience. With real-time interactions, infinite scroll, and a sleek UI, it redefines the way users connect and share content.',
-      subdesc:
-        'Developed with React JS, Appwrite, Tailwind CSS, JavaScript, and Shadcn UI, Snapgram delivers high performance, real-time updates, and an intuitive design optimized for scalability and responsiveness.',
-      href: 'https://insta-void.vercel.app/',
-      texture: '/textures/project/Pro1.mp4',
-      logo: '/assets/project-logo/Pro1.svg',
-      logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
-      },
-      spotlight: '/assets/spotlight1.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
-    {
       title: 'Brainwave: Modern Landing Page For SAAS',
       desc: 'Brainwave is a cutting-edge SaaS landing page designed to create modern, visually captivating websites. With sleek parallax effects and bento box layouts, it delivers a stylish, mobile-first user experience while enhancing interactivity and engagement.',
       subdesc:
@@ -177,6 +140,43 @@ export const navLinks = [
         },
         {
           id: 3,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
+    {
+      title: 'Snapgram: A Modern Social Media App',
+      desc: 'Snapgram is a cutting-edge social media platform designed for seamless user engagement and a native mobile experience. With real-time interactions, infinite scroll, and a sleek UI, it redefines the way users connect and share content.',
+      subdesc:
+        'Developed with React JS, Appwrite, Tailwind CSS, JavaScript, and Shadcn UI, Snapgram delivers high performance, real-time updates, and an intuitive design optimized for scalability and responsiveness.',
+      href: 'https://insta-void.vercel.app/',
+      texture: '/textures/project/Pro1.mp4',
+      logo: '/assets/project-logo/Pro1.svg',
+      logoStyle: {
+        backgroundColor: '#2A1816',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
           name: 'Framer Motion',
           path: '/assets/framer.png',
         },
