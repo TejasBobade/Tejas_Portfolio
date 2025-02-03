@@ -24,11 +24,29 @@ const Developer = ({ animationName = 'idle', ...props}) => {
   const { actions } = useAnimations(
     [idleAnimation[0],clappingAnimation[0],saluteAnimation[0],victoryAnimation[0]], group );
 
-  useEffect(() => {
-    actions[animationName].reset().fadeIn(0.5).play();
-    return () => actions[animationName].fadeOut(0.5);
+  // useEffect(() => {
+  //   actions[animationName].reset().fadeIn(0.5).play();
+  //   return () => actions[animationName].fadeOut(0.5);
 
-  }, [animationName])
+  // }, [animationName])
+
+  // useEffect(() => {
+  //   if (actions && actions[animationName]) {
+  //     actions[animationName].reset().fadeIn(0.5).play();
+  //     return () => actions[animationName].fadeOut(0.5);
+  //   }
+  // }, [animationName, actions]);
+
+  useEffect(() => {
+    if (actions && actions[animationName]) {
+      actions[animationName].reset().fadeIn(0.5).play();
+      return () => {
+        if (actions[animationName]) {
+          actions[animationName].fadeOut(0.5);
+        }
+      };
+    }
+  }, [animationName, actions]);
 
   return (
     <group ref={group} {...props} dispose={null} >

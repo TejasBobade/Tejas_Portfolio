@@ -1,7 +1,17 @@
 import { useGLTF, useTexture } from '@react-three/drei';
+import { useMemo } from 'react';
 
 export function HackerRoom(props) {
-  const { nodes, materials } = useGLTF('/models/hacker-room.glb');
+  // const { nodes, materials } = useGLTF('/models/hacker-room.glb');
+  // To solve the error
+  const gltf = useGLTF('/models/hacker-room.glb');
+
+  // Ensure nodes and materials exist before rendering
+  const nodes = useMemo(() => gltf?.nodes, [gltf]);
+  const materials = useMemo(() => gltf?.materials, [gltf]);
+
+  if (!nodes || !materials) return null; // Don't render until model is loaded
+
 
   const monitortxt = useTexture('/textures/desk/monitor.png');
   const screenTxt = useTexture('/textures/desk/screen.png');
